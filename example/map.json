@@ -18,7 +18,7 @@
         "y1": 43,
         "x2": 65,
         "y2": 57,
-        "id": "Satisfação: Ruim",
+        "id": "Satisfaction: Poor at",
         "type": "rectangle",
         "tolerance": 60
       },
@@ -27,7 +27,7 @@
         "y1": 43,
         "x2": 218,
         "y2": 57,
-        "id": "Satisfação: Regular",
+        "id": "Satisfaction: Regular",
         "type": "rectangle",
         "tolerance": 60
       },
@@ -36,7 +36,7 @@
         "y1": 41,
         "x2": 388,
         "y2": 58,
-        "id": "Satisfação: Otimo",
+        "id": "Satisfaction: Ottimo",
         "type": "rectangle",
         "tolerance": 60
       },
@@ -45,7 +45,7 @@
         "y1": 100,
         "x2": 65,
         "y2": 116,
-        "id": "Recomendaria: Nao",
+        "id": " Would recommend: No",
         "type": "rectangle",
         "tolerance": 60
       },
@@ -54,7 +54,7 @@
         "y1": 100,
         "x2": 218,
         "y2": 117,
-        "id": "Recomendaria: Talvez",
+        "id": " Would recommend: Maybe",
         "type": "rectangle",
         "tolerance": 60
       },
@@ -63,7 +63,7 @@
         "y1": 99,
         "x2": 388,
         "y2": 117,
-        "id": "Recomendaria: Sim",
+        "id": " Would recommend: Yes",
         "type": "rectangle",
         "tolerance": 60
       },
@@ -72,7 +72,7 @@
         "y1": 172,
         "x2": 397,
         "y2": 369,
-        "id": "Sugestão",
+        "id": "Suggestion",
         "type": "text"
       }
     ]

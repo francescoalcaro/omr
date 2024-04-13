@@ -1,9 +1,19 @@
-FROM php:7.3-cli-alpine
+FROM php:8.2-cli
 
-RUN apk add -u $PHPIZE_DEPS \
-    git \
-    imagemagick6 \
-    imagemagick6-dev
+# Update package list and install necessary packages
+RUN apt-get update && apt-get install -y \
+        autoconf \
+        dpkg-dev \
+        file \
+        g++ \
+        gcc \
+        libc-dev \
+        make \
+        pkg-config \
+        re2c \
+        git \
+        imagemagick \
+        libmagickwand-dev  # This is typically the package name for ImageMagick development headers in Debian-based systems
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 
